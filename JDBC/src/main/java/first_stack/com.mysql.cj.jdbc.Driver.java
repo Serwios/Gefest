@@ -59,16 +59,17 @@ class first_stack{
         String answer = input.nextLine();
         answer=answer.toLowerCase();
 
+        ResultSet new_resultSet = statement.executeQuery(sql);
           if (answer.equals("так") || answer.equals("yes")){
               System.out.println("Okay");
 
-              while (resultSet.next()) {
+              while (new_resultSet.next()) {
 
-                  int id = resultSet.getInt("ID");
-                  String name = resultSet.getString("Name");
-                  String Director = resultSet.getString("Director");
-                  int year = resultSet.getInt("Year");
-                  String Country = resultSet.getString("Country");
+                  int id = new_resultSet.getInt("ID");
+                  String name = new_resultSet.getString("Name");
+                  String Director = new_resultSet.getString("Director");
+                  int year = new_resultSet.getInt("Year");
+                  String Country = new_resultSet.getString("Country");
 
                   System.out.println("\n================\n");
                   System.out.println("id: " + id);
