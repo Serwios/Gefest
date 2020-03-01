@@ -31,6 +31,8 @@ class first_stack{
         Scanner in = new Scanner(System.in);
         System.out.print("Input a film: ");
         String film = in.nextLine();
+        String AI_film = film.substring(0, 1).toUpperCase() + film.substring(1);
+        System.out.println(AI_film);
 
         while (resultSet.next()) {
 
@@ -39,7 +41,7 @@ class first_stack{
             int year = resultSet.getInt("Year");
             String Country = resultSet.getString("Country");
 
-             if(film.equals(names)){
+             if(AI_film.equals(names)){
 
                  int id = resultSet.getInt("ID");
                  System.out.println("\n================\n");
