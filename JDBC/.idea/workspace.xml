@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a62b2ab7-bece-4d29-b57a-0100dfe8f7b3" name="Default Changelist" comment="Finish !">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/first_stack/com.mysql.cj.jdbc.Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_stack/com.mysql.cj.jdbc.Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,6 +120,11 @@
       <workItem from="1583010611152" duration="190000" />
       <workItem from="1583011180226" duration="84000" />
       <workItem from="1583055041834" duration="640000" />
+      <workItem from="1583055919915" duration="117000" />
+      <workItem from="1583135985568" duration="40000" />
+      <workItem from="1583264966337" duration="38000" />
+      <workItem from="1583340243378" duration="154000" />
+      <workItem from="1583671121347" duration="53000" />
     </task>
     <servers />
   </component>
@@ -117,6 +136,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Finish !" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="198" key="#SQL_Dialects" timestamp="1583055990418">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#SQL_Dialects/0.0.1920.1080@0.0.1920.1080" timestamp="1583055990418" />
+    <state x="693" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583056016825">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="693" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583056016825" />
     <state x="138" y="207" key="CommitChangelistDialog2" timestamp="1583011219336">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -161,10 +188,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="393" y="114" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582818558090" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1583055059310">
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1583673336260">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583055059310" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583673336260" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1582912978198">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
