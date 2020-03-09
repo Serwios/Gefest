@@ -3,6 +3,7 @@ package first_stack;
 import java.sql.*;
 import java.util.Scanner;
 
+
 class first_stack{
 
     static final String DATABASE_URL = "jdbc:mysql://localhost:3306/new?useLegacyDatetimeCode=false&amp&serverTimezone=UTC";

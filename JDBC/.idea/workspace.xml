@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a62b2ab7-bece-4d29-b57a-0100dfe8f7b3" name="Default Changelist" comment="Finish !">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="a62b2ab7-bece-4d29-b57a-0100dfe8f7b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/first_stack/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_stack/com.mysql.cj.jdbc.Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_stack/com.mysql.cj.jdbc.Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,11 @@
     <expand />
     <select />
   </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="ce7ad5c2-89a1-4b71-9ee6-1774c18299a9" />
+    </checked>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -34,6 +42,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Serwio\git\WhatLook\JDBC\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -42,13 +57,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1YOf30D7rVDCR5yMWcnRZfZhxgP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -57,7 +75,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.first_stack">
+  <component name="RunManager" selected="Application.test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.serwio.database.Main" />
       <module name="JDBC" />
@@ -84,12 +102,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="first_stack.test" />
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="first_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.first_stack" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -125,7 +169,20 @@
       <workItem from="1583264966337" duration="38000" />
       <workItem from="1583340243378" duration="154000" />
       <workItem from="1583671121347" duration="53000" />
+      <workItem from="1583673334993" duration="676000" />
+      <workItem from="1583674146575" duration="744000" />
+      <workItem from="1583679598549" duration="637000" />
+      <workItem from="1583765227928" duration="1357000" />
+      <workItem from="1583784548718" duration="1316000" />
     </task>
+    <task id="LOCAL-00001" summary="Finish !">
+      <created>1583673394430</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583673394430</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,30 +197,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="198" key="#SQL_Dialects/0.0.1920.1080@0.0.1920.1080" timestamp="1583055990418" />
-    <state x="693" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583056016825">
+    <state x="651" y="310" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583765907701">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="693" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583056016825" />
-    <state x="138" y="207" key="CommitChangelistDialog2" timestamp="1583011219336">
+    <state x="651" y="310" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583765907701" />
+    <state x="138" y="207" key="CommitChangelistDialog2" timestamp="1583673393722">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="138" y="207" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583011219336" />
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1583055684443">
+    <state x="138" y="207" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583673393722" />
+    <state x="758" y="242" key="ExecutionTargetDialog" timestamp="1583765736814">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583055684443" />
-    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1583055684443">
+    <state x="758" y="242" key="ExecutionTargetDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583765736814" />
+    <state width="890" height="172" key="GridCell.Tab.0.bottom" timestamp="1583786638025">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583055684443" />
-    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1583055684442">
+    <state width="890" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583786638025" />
+    <state width="890" height="172" key="GridCell.Tab.0.center" timestamp="1583786638025">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583055684442" />
-    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1583055684443">
+    <state width="890" height="172" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583786638025" />
+    <state width="890" height="172" key="GridCell.Tab.0.left" timestamp="1583786638025">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583055684443" />
+    <state width="890" height="172" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583786638025" />
+    <state width="890" height="172" key="GridCell.Tab.0.right" timestamp="1583786638025">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="890" height="172" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583786638025" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1582915800651">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -180,6 +241,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582915800650" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1583765725102">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1080@0.0.1920.1080" timestamp="1583765725102" />
     <state x="980" y="390" key="Maven.ArtifactSearchDialog" timestamp="1582818914524">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -188,10 +253,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="393" y="114" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582818558090" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1583673336260">
+    <state x="714" y="294" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1583765847373">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583673336260" />
+    <state x="714" y="294" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1920.1080@0.0.1920.1080" timestamp="1583765847373" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1583784548633">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583784548633" />
+    <state x="690" y="306" key="extract.method.dialog" timestamp="1583674226551">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="306" key="extract.method.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583674226551" />
+    <state x="342" y="235" key="new project wizard" timestamp="1583679627433">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="342" y="235" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1583679627433" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1582912978198">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
