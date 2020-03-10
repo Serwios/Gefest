@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a62b2ab7-bece-4d29-b57a-0100dfe8f7b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/first_stack/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/first_stack/com.mysql.cj.jdbc.Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_stack/com.mysql.cj.jdbc.Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_stack/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_stack/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first_stack/first_stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_stack/first_stack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.first_stack">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.serwio.database.Main" />
       <module name="JDBC" />
@@ -117,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
         <item itemvalue="Application.first_stack" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -173,7 +172,10 @@
       <workItem from="1583674146575" duration="744000" />
       <workItem from="1583679598549" duration="637000" />
       <workItem from="1583765227928" duration="1357000" />
-      <workItem from="1583784548718" duration="1316000" />
+      <workItem from="1583784548718" duration="5359000" />
+      <workItem from="1583852177330" duration="825000" />
+      <workItem from="1583853328264" duration="121000" />
+      <workItem from="1583868715373" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="Finish !">
       <created>1583673394430</created>
@@ -182,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583673394430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finish !">
+      <created>1583786658102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583786658102</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,30 +210,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="651" y="310" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583765907701" />
-    <state x="138" y="207" key="CommitChangelistDialog2" timestamp="1583673393722">
+    <state x="138" y="207" key="CommitChangelistDialog2" timestamp="1583786657408">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="138" y="207" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583673393722" />
+    <state x="138" y="207" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583786657408" />
     <state x="758" y="242" key="ExecutionTargetDialog" timestamp="1583765736814">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="758" y="242" key="ExecutionTargetDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583765736814" />
-    <state width="890" height="172" key="GridCell.Tab.0.bottom" timestamp="1583786638025">
+    <state width="1877" height="169" key="GridCell.Tab.0.bottom" timestamp="1583869414653">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="890" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583786638025" />
-    <state width="890" height="172" key="GridCell.Tab.0.center" timestamp="1583786638025">
+    <state width="1877" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583869414653" />
+    <state width="1877" height="169" key="GridCell.Tab.0.center" timestamp="1583869414653">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="890" height="172" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583786638025" />
-    <state width="890" height="172" key="GridCell.Tab.0.left" timestamp="1583786638025">
+    <state width="1877" height="169" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583869414653" />
+    <state width="1877" height="169" key="GridCell.Tab.0.left" timestamp="1583869414653">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="890" height="172" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583786638025" />
-    <state width="890" height="172" key="GridCell.Tab.0.right" timestamp="1583786638025">
+    <state width="1877" height="169" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583869414653" />
+    <state width="1877" height="169" key="GridCell.Tab.0.right" timestamp="1583869414653">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="890" height="172" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583786638025" />
+    <state width="1877" height="169" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583869414653" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1582915800651">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -257,10 +266,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="714" y="294" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1920.1080@0.0.1920.1080" timestamp="1583765847373" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1583784548633">
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1583868715403">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583784548633" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583868715403" />
     <state x="690" y="306" key="extract.method.dialog" timestamp="1583674226551">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
