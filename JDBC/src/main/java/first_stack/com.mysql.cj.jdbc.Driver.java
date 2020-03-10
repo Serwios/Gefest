@@ -24,8 +24,13 @@ class first_stack{
         System.out.println("Executing statement...");
         statement = connection.createStatement();
 
+        welcome_meth();
+
+
         String sql;
         sql = "SELECT * FROM movies";
+
+
 
         ResultSet resultSet = statement.executeQuery(sql);
 
@@ -42,16 +47,16 @@ class first_stack{
             int year = resultSet.getInt("Year");
             String Country = resultSet.getString("Country");
 
-             if(AI_film.equals(names)){
+            if (AI_film.equals(names)) {
 
-                 int id = resultSet.getInt("ID");
-                 System.out.println("\n================\n");
-                 System.out.println("id: " + id);
-                 System.out.println("Name: " + names);
-                 System.out.println("Director: " + Director);
-                 System.out.println("Year: " + year);
-                 System.out.println("Country: " + Country);
-             }
+                int id = resultSet.getInt("ID");
+                System.out.println("\n================\n");
+                System.out.println("id: " + id);
+                System.out.println("Name: " + names);
+                System.out.println("Director: " + Director);
+                System.out.println("Year: " + year);
+                System.out.println("Country: " + Country);
+            }
 
         }
 
@@ -60,31 +65,32 @@ class first_stack{
         System.out.println("Did you want to look on DB?");
         Scanner input = new Scanner(System.in);
         String answer = input.nextLine();
-        answer=answer.toLowerCase();
+        answer = answer.toLowerCase();
 
         ResultSet new_resultSet = statement.executeQuery(sql);
-          if (answer.equals("так") || answer.equals("yes")){
-              System.out.println("Okay");
+        if (answer.equals("так") || answer.equals("yes")) {
+            System.out.println("Okay");
 
-              while (new_resultSet.next()) {
+            while (new_resultSet.next()) {
 
-                  int id = new_resultSet.getInt("ID");
-                  String name = new_resultSet.getString("Name");
-                  String Director = new_resultSet.getString("Director");
-                  int year = new_resultSet.getInt("Year");
-                  String Country = new_resultSet.getString("Country");
+                int id = new_resultSet.getInt("ID");
+                String name = new_resultSet.getString("Name");
+                String Director = new_resultSet.getString("Director");
+                int year = new_resultSet.getInt("Year");
+                String Country = new_resultSet.getString("Country");
 
-                  System.out.println("\n================\n");
-                  System.out.println("id: " + id);
-                  System.out.println("Name: " + name);
-                  System.out.println("Director: " + Director);
-                  System.out.println("Year: " + year);
-                  System.out.println("Country: " + Country);
-              }
-          }
-          else {
-              System.out.println("This is end");
-          }
+                System.out.println("\n================\n");
+                System.out.println("id: " + id);
+                System.out.println("Name: " + name);
+                System.out.println("Director: " + Director);
+                System.out.println("Year: " + year);
+                System.out.println("Country: " + Country);
+            }
+        } else {
+            System.out.println("This is end");
+        }
+
+        System.out.println("Maybe you want to add something newest?");
 
 
         in.close();
@@ -92,5 +98,14 @@ class first_stack{
         resultSet.close();
         statement.close();
         connection.close();
+
+
+    }
+
+    public static void welcome_meth(){
+        System.out.println("Write your name");
+        Scanner name = new Scanner(System.in);
+        String call = name.nextLine();
+        System.out.println("Hello " + call + " Friend ");
     }
 }
