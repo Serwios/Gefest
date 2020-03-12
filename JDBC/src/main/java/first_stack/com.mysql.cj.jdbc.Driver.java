@@ -17,6 +17,7 @@ class first_stack{
         JDBC.Connection();
         Quee.welcome();
         Quee.SQL();
+        find_films.parser();
     }
 
 }
@@ -27,22 +28,32 @@ class JDBC extends first_stack{
         System.out.println("Registering JDBC driver...");
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        System.out.println("Creating database connection...");
-        connection = DriverManager.getConnection(DATABASE_URL, USER, PASSWORD);
+        try {
+            System.out.println("Creating database connection...");
+            connection = DriverManager.getConnection(DATABASE_URL, USER, PASSWORD);
+            System.out.println("Executing statement...");
+            statement = connection.createStatement();
+        }
+         catch (Exception e){
+            System.out.println("JDBC cann't connect to mySQL");
 
-        System.out.println("Executing statement...");
-        statement = connection.createStatement();
-
+        }
+         finally {
+            System.out.println("@Excellent@");
+            System.out.println();
+        }
     }
 
 }
 class Quee extends first_stack{
 
-     public static void welcome(){
+     public static String welcome(){
         System.out.println("Write your name");
         Scanner name = new Scanner(System.in);
         String call = name.nextLine();
         System.out.println("Hello " + call + " Friend ");
+
+        return call;
     }
 
     public static void SQL() throws SQLException {
@@ -117,4 +128,10 @@ class Quee extends first_stack{
 
     }
 
+}
+
+class find_films extends first_stack{
+    public static void parser(){
+
+    }
 }
