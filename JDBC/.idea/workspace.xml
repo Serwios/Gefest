@@ -4,7 +4,6 @@
     <list default="true" id="a62b2ab7-bece-4d29-b57a-0100dfe8f7b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/first_stack/com.mysql.cj.jdbc.Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_stack/com.mysql.cj.jdbc.Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/first_stack/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_stack/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/first_stack/first_stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/first_stack/first_stack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,6 +175,7 @@
       <workItem from="1583852177330" duration="825000" />
       <workItem from="1583853328264" duration="121000" />
       <workItem from="1583868715373" duration="695000" />
+      <workItem from="1584027844197" duration="646000" />
     </task>
     <task id="LOCAL-00001" summary="Finish !">
       <created>1583673394430</created>
@@ -218,22 +218,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="758" y="242" key="ExecutionTargetDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583765736814" />
-    <state width="1877" height="169" key="GridCell.Tab.0.bottom" timestamp="1583869414653">
+    <state width="1877" height="169" key="GridCell.Tab.0.bottom" timestamp="1584028516107">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583869414653" />
-    <state width="1877" height="169" key="GridCell.Tab.0.center" timestamp="1583869414653">
+    <state width="1877" height="169" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584028516107" />
+    <state width="1877" height="169" key="GridCell.Tab.0.center" timestamp="1584028516107">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="169" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583869414653" />
-    <state width="1877" height="169" key="GridCell.Tab.0.left" timestamp="1583869414653">
+    <state width="1877" height="169" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584028516107" />
+    <state width="1877" height="169" key="GridCell.Tab.0.left" timestamp="1584028516106">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="169" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583869414653" />
-    <state width="1877" height="169" key="GridCell.Tab.0.right" timestamp="1583869414653">
+    <state width="1877" height="169" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584028516106" />
+    <state width="1877" height="169" key="GridCell.Tab.0.right" timestamp="1584028516107">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="169" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583869414653" />
+    <state width="1877" height="169" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584028516107" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1582915800651">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -266,10 +266,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="714" y="294" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1920.1080@0.0.1920.1080" timestamp="1583765847373" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1583868715403">
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1584027863016">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583868715403" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584027863016" />
     <state x="690" y="306" key="extract.method.dialog" timestamp="1583674226551">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

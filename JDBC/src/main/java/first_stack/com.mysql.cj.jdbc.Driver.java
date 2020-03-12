@@ -7,13 +7,22 @@ import java.util.Scanner;
 class first_stack{
 
     static final String DATABASE_URL = "jdbc:mysql://localhost:3306/new?useLegacyDatetimeCode=false&amp&serverTimezone=UTC";
-
     static final String USER = "root";
     static final String PASSWORD = "root";
 
+    static Connection connection;
+    static Statement statement;
+
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
-        Connection connection;
-        Statement statement;
+        JDBC.Connection();
+        Quee.welcome();
+        Quee.SQL();
+    }
+
+}
+
+class JDBC extends first_stack{
+    public static void Connection() throws SQLException, ClassNotFoundException {
 
         System.out.println("Registering JDBC driver...");
         Class.forName("com.mysql.cj.jdbc.Driver");
@@ -24,13 +33,21 @@ class first_stack{
         System.out.println("Executing statement...");
         statement = connection.createStatement();
 
-        welcome_meth();
+    }
 
+}
+class Quee extends first_stack{
 
+     public static void welcome(){
+        System.out.println("Write your name");
+        Scanner name = new Scanner(System.in);
+        String call = name.nextLine();
+        System.out.println("Hello " + call + " Friend ");
+    }
+
+    public static void SQL() throws SQLException {
         String sql;
         sql = "SELECT * FROM movies";
-
-
 
         ResultSet resultSet = statement.executeQuery(sql);
 
@@ -58,8 +75,8 @@ class first_stack{
                 System.out.println("Country: " + Country);
             }
 
-        }
 
+        }
 
         System.out.println("\n");
         System.out.println("Did you want to look on DB?");
@@ -86,12 +103,11 @@ class first_stack{
                 System.out.println("Year: " + year);
                 System.out.println("Country: " + Country);
             }
-        } else {
+        }else {
             System.out.println("This is end");
         }
 
         System.out.println("Maybe you want to add something newest?");
-
 
         in.close();
         input.close();
@@ -99,13 +115,6 @@ class first_stack{
         statement.close();
         connection.close();
 
-
     }
 
-    public static void welcome_meth(){
-        System.out.println("Write your name");
-        Scanner name = new Scanner(System.in);
-        String call = name.nextLine();
-        System.out.println("Hello " + call + " Friend ");
-    }
 }
