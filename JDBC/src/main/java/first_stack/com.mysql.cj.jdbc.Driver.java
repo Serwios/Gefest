@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 class first_stack{
 
-    static final String DATABASE_URL = "jdbc:mysql://localhost:3306/new?useLegacyDatetimeCode=false&amp&serverTimezone=UTC";
+    static final String DATABASE_URL = "jdbc:mysql://localhost:3306/new?useLegacyDatetimeCode=false&amp&serverTimezone=UTC&useSSL=false";
     static final String USER = "root";
     static final String PASSWORD = "root";
 
