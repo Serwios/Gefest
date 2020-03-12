@@ -1,8 +1,15 @@
 package first_stack;
 
+import java.net.URL;
 import java.sql.*;
 import java.util.Scanner;
+import java.io.IOException;
+import java.net.URL;
 
+import org.jsoup.nodes.Document;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 class first_stack{
 
@@ -13,11 +20,11 @@ class first_stack{
     static Connection connection;
     static Statement statement;
 
-    public static void main(String[] args) throws ClassNotFoundException, SQLException {
+    public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
         JDBC.Connection();
         Quee.welcome();
         Quee.SQL();
-        find_films.parser();
+        //find_films.Film_Site();
     }
 
 }
@@ -130,8 +137,35 @@ class Quee extends first_stack{
 
 }
 
-class find_films extends first_stack{
-    public static void parser(){
+/*class find_films extends first_stack{
+    public static Document getPage() throws IOException{
+
+        String url="https://lpnu.ua/students_schedule?institutecode_selective=%D0%86%D0%9A%D0%A2%D0%90&edugrupabr_selective=%D0%9A%D0%91-15";
+        Document page = Jsoup.parse(new URL(url), 3000);
+        return page;
 
     }
+    public static void Film_Site() throws IOException  {
+
+        Document page = getPage();
+
+        Element list = page.select("div[class=block-main]").first();
+        Elements films = list.select("div[style=overflow:auto]");
+
+
+        for (Element i : films) {
+
+            String name = i.select("div[class=bigtext]").text();
+            String country = i.select("div[class=textgray]").text();
+
+            String str = "\t";
+
+            System.out.println(name);
+            System.out.println(country);
+
+        }
+
+
+    }
+*/
 }
