@@ -24,7 +24,7 @@ class first_stack{
         JDBC.Connection();
         Quee.welcome();
         Quee.SQL();
-        //find_films.Film_Site();
+        find_films.Film_Site();
     }
 
 }
@@ -137,35 +137,36 @@ class Quee extends first_stack{
 
 }
 
-/*class find_films extends first_stack{
-    public static Document getPage() throws IOException{
+class find_films extends first_stack {
+    public static Document getPage() throws IOException {
 
-        String url="https://lpnu.ua/students_schedule?institutecode_selective=%D0%86%D0%9A%D0%A2%D0%90&edugrupabr_selective=%D0%9A%D0%91-15";
+        String url = "https://www.kinoafisha.info/rating/movies/#";
         Document page = Jsoup.parse(new URL(url), 3000);
         return page;
 
     }
-    public static void Film_Site() throws IOException  {
+
+    public static void Film_Site() throws IOException {
 
         Document page = getPage();
 
-        Element list = page.select("div[class=block-main]").first();
-        Elements films = list.select("div[style=overflow:auto]");
+        Element list = page.select("div[class=layer layer-reverse]").first();
+        Elements films = list.select("a[class=films-list-item-link]");
 
 
         for (Element i : films) {
 
-            String name = i.select("div[class=bigtext]").text();
-            String country = i.select("div[class=textgray]").text();
+            String name = i.select("a[class=films-list-item-link").text();
+
 
             String str = "\t";
 
             System.out.println(name);
-            System.out.println(country);
+
 
         }
 
 
     }
-*/
 }
+
