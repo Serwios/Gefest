@@ -1,8 +1,9 @@
+package enter_stack;
 
 import java.sql.*;
 import java.util.Scanner;
 
-class first_stack{
+class WhatLook{
 
     static final String DATABASE_URL = "jdbc:mysql://localhost:3306/new?useLegacyDatetimeCode=false&amp&serverTimezone=UTC&useSSL=false";
     static final String USER = "root";
@@ -20,7 +21,7 @@ class first_stack{
     }
 }
 
-class JDBC extends first_stack{
+class JDBC extends WhatLook{
     public static void Connection() throws ClassNotFoundException {
 
         System.out.println("Registering JDBC driver...");
@@ -32,26 +33,26 @@ class JDBC extends first_stack{
             System.out.println("Executing statement...");
             statement = connection.createStatement();
         }
-         catch (Exception e){
+        catch (Exception e){
             System.out.println("JDBC cann't connect to mySQL");
 
         }
-         finally {
+        finally {
             System.out.println("@Excellent@");
             System.out.println();
         }
     }
 
 }
-class Quee extends first_stack{
+class Quee extends WhatLook{
 
-     public static void welcome(){
+    public static void welcome(){
         System.out.println("Write your name");
         Scanner name = new Scanner(System.in);
         String call = name.nextLine();
         System.out.println("Hello " + call + " Friend ");
 
-     }
+    }
 
     public static void SQL() throws SQLException {
         String sql;
