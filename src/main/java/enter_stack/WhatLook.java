@@ -4,7 +4,6 @@ import java.sql.*;
 import java.util.Scanner;
 
 class WhatLook{
-
     static final String DATABASE_URL = "jdbc:mysql://localhost:3306/new?useLegacyDatetimeCode=false&amp&serverTimezone=UTC&useSSL=false";
     static final String USER = "root";
     static final String PASSWORD = "root";
