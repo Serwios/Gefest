@@ -13,17 +13,14 @@ class WhatLook{
     static Statement statement;
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException{
-
         JDBC.Connection();
         Quee.welcome();
         Quee.SQL();
-
     }
 }
 
 class JDBC extends WhatLook{
     public static void Connection() throws ClassNotFoundException {
-
         System.out.println("Registering JDBC driver...");
         Class.forName("com.mysql.cj.jdbc.Driver");
 
@@ -32,20 +29,15 @@ class JDBC extends WhatLook{
             connection = DriverManager.getConnection(DATABASE_URL, USER, PASSWORD);
             System.out.println("Executing statement...");
             statement = connection.createStatement();
-        }
-        catch (Exception e){
+        } catch (Exception e){
             System.out.println("JDBC cann't connect to mySQL");
-
-        }
-        finally {
-            System.out.println("@Excellent@");
-            System.out.println();
+        } finally {
+            System.out.println("@Excellent@" + "\n");
         }
     }
 
 }
 class Quee extends WhatLook{
-
     public static void welcome(){
         System.out.println("Write your name");
         Scanner name = new Scanner(System.in);
@@ -55,8 +47,7 @@ class Quee extends WhatLook{
     }
 
     public static void SQL() throws SQLException {
-        String sql;
-        sql = "SELECT * FROM movies";
+        String sql = "SELECT * FROM movies";
 
         ResultSet resultSet = statement.executeQuery(sql);
 
@@ -112,7 +103,7 @@ class Quee extends WhatLook{
                 System.out.println("Year: " + year);
                 System.out.println("Country: " + Country);
             }
-        }else {
+        } else {
             System.out.println("This is end");
         }
 
