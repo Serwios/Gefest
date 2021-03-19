@@ -12,11 +12,9 @@ class first_stack{
     static Statement statement;
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException{
-
         JDBC.Connection();
         Quee.welcome();
         Quee.SQL();
-
     }
 }
 
@@ -122,7 +120,6 @@ class Quee extends first_stack{
         resultSet.close();
         statement.close();
         connection.close();
-
     }
 
 }
