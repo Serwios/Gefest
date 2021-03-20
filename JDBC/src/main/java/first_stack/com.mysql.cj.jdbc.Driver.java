@@ -3,7 +3,6 @@ import java.sql.*;
 import java.util.Scanner;
 
 class first_stack{
-
     static final String DATABASE_URL = "jdbc:mysql://localhost:3306/new?useLegacyDatetimeCode=false&amp&serverTimezone=UTC&useSSL=false";
     static final String USER = "root";
     static final String PASSWORD = "root";
@@ -39,10 +38,9 @@ class JDBC extends first_stack{
             System.out.println();
         }
     }
-
 }
-class Quee extends first_stack{
 
+class Quee extends first_stack{
      public static void welcome(){
         System.out.println("Write your name");
         Scanner name = new Scanner(System.in);
@@ -109,7 +107,7 @@ class Quee extends first_stack{
                 System.out.println("Year: " + year);
                 System.out.println("Country: " + Country);
             }
-        }else {
+        } else {
             System.out.println("This is end");
         }
 
