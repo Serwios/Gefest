@@ -41,8 +41,6 @@ class Quee extends WhatLook{
         System.out.println("Write your name");
         Scanner name = new Scanner(System.in);
         String call = name.nextLine();
-        System.out.println("Hello " + call + " Friend ");
-
     }
 
     public static void SQL() throws SQLException {
@@ -102,6 +100,7 @@ class Quee extends WhatLook{
                 System.out.println("Year: " + year);
                 System.out.println("Country: " + Country);
             }
+            
         } else {
             System.out.println("This is end");
         }
