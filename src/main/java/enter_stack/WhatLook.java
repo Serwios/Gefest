@@ -112,7 +112,6 @@ class Quee extends WhatLook{
         resultSet.close();
         statement.close();
         connection.close();
-
     }
 
 }
